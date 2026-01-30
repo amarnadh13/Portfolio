@@ -1,8 +1,8 @@
 const textArray = [
   "Guntur Amarnadh",
   "Web Developer",
-  "Web Designer",
-  "Java Learner",
+  "Aspiring Full Stack Developer",
+  "Spring Boot Backend Developer"
 ];
 
 let index = 0;
