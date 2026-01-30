@@ -1,0 +1,9 @@
+import "./aos.js";
+import "./ripple.js";
+import "./backToTop.js";
+import "./typing.js";
+import "./theme.js";
+import "./contact.js";
+import "./navbar.js";
+import "./progressBars.js";
+import "./auto-scroll.js";

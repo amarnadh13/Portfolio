@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="nav-sticky">
+      <div class="nav-container">
+        <div class="logo" aria-hidden="true">
+          <span>Amar</span>
+        </div>
+
+        <button
+          id="theme-toggle"
+          aria-label="Toggle theme"
+          class="icon-btn"
+          title="Toggle theme"
+        >
+          <i class="fa-regular fa-moon"></i>
+        </button>
+
+        <button
+          id="hamburger"
+          class="icon-btn hamburger"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="links" id="nav-links" role="navigation">
+          <a class="nav-link" href="#Home">Home</a>
+          <a class="nav-link" href="#About">About</a>
+          <a class="nav-link" href="#Skills">Skills</a>
+          <a class="nav-link" href="#Projects">Projects</a>
+          <a class="nav-link" href="#Contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="Home" data-aos="fade-up">
+      <div class="main-container">
+        <div class="image">
+          <img
+            src="https://portfolio-images-amarnadh1.s3.ap-south-1.amazonaws.com/home.jpg"
+            alt="Profile picture"
+          />
+        </div>
+
+        <div class="content-home" data-aos="fade-left">
+          <h1>Hey I'm <span class="typing"></span></h1>
+
+          <div class="description">
+            <p>
+              I am a web designer who enjoys creating clean and responsive
+              websites. <br />
+              I love learning new things and improving my skills every day.
+              <br />
+              My goal is to build websites that look good and work well on all
+              devices.
+            </p>
+          </div>
+
+          <div class="social-links" aria-label="Social links">
+            <a
+              href="https://www.linkedin.com/in/amarnadh-guntur-as1329/"
+              target="_blank"
+              aria-label="LinkedIn"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/amarnadh13"
+              target="_blank"
+              aria-label="GitHub"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/amar__1329/"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100052448534332"
+              target="_blank"
+              aria-label="Facebook"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </div>
+
+          <div class="btn">
+            <button id="open-contact">Hire me</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="About" class="about" data-aos="fade-up" id="about">
+      <div class="title"><span>About me</span></div>
+      <div class="content-about">
+        <div class="about-details">
+          <div class="left">
+            <img
+              src="https://portfolio-images-amarnadh1.s3.ap-south-1.amazonaws.com/about.jpg"
+              alt="About picture"
+            />
+          </div>
+          <div class="right" data-aos="fade-up">
+            <div class="topic-about">
+              <h1>Designing Is My Passion</h1>
+            </div>
+            <p>
+              Currently, I’m exploring responsive design, UI/UX principles, and
+              tools like Figma to enhance my design process. Whether it’s
+              building personal projects or collaborating on team-based tasks, I
+              strive to deliver visually appealing and performance-optimized web
+              applications. My long-term goal is to become a full-stack
+              developer and contribute to impactful projects that solve
+              real-world problems.
+            </p>
+            <div class="download">
+              <h3>Download my resume</h3>
+              <div class="btn" id="about-btn">
+                <a
+                  href="https://portfolio-images-amarnadh1.s3.ap-south-1.amazonaws.com/amar_resume.pdf"
+                  download="Amar_Resume"
+                >
+                  <button>Download CV</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="Skills">
+      <div class="title"><span>My Skills</span></div>
+      <div class="content-skills">
+        <div class="skills-details">
+          <div class="divboxes">
+            <div class="box" data-aos="zoom-in" data-percent="90">
+              <div class="topic">HTML</div>
+              <div class="progress">
+                <div class="progress-bar html"></div>
+              </div>
+              <div class="percentage"><span>0</span>%</div>
+            </div>
+
+            <div class="box" data-aos="zoom-in" data-percent="90">
+              <div class="topic">CSS</div>
+              <div class="progress">
+                <div class="progress-bar css"></div>
+              </div>
+              <div class="percentage"><span>0</span>%</div>
+            </div>
+
+            <div class="box" data-aos="zoom-in" data-percent="75">
+              <div class="topic">JavaScript</div>
+              <div class="progress">
+                <div class="progress-bar javascript"></div>
+              </div>
+              <div class="percentage"><span>0</span>%</div>
+            </div>
+
+            <div class="box" data-aos="zoom-in" data-percent="90">
+              <div class="topic">Figma</div>
+              <div class="progress">
+                <div class="progress-bar figma"></div>
+              </div>
+              <div class="percentage"><span>0</span>%</div>
+            </div>
+
+            <div class="box" data-aos="zoom-in" data-percent="70">
+              <div class="topic">Java</div>
+              <div class="progress">
+                <div class="progress-bar java"></div>
+              </div>
+              <div class="percentage"><span>0</span>%</div>
+            </div>
+
+            <div class="box" data-aos="zoom-in" data-percent="70">
+              <div class="topic">Sql</div>
+              <div class="progress">
+                <div class="progress-bar sql"></div>
+              </div>
+              <div class="percentage"><span>0</span>%</div>
+            </div>
+
+            <div class="box" data-aos="zoom-in" data-percent="75">
+              <div class="topic">GitHub</div>
+              <div class="progress">
+                <div class="progress-bar github"></div>
+              </div>
+              <div class="percentage"><span>0</span>%</div>
+            </div>
+            <div class="box text-box" data-aos="zoom-in">
+              <div class="text-skills">
+                <div class="topic-skills">
+                  <span>Skills Reflects Our Knowledge</span>
+                </div>
+                <div class="experience"><b>My Experience : </b> Fresher</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Projects" class="section projects" data-aos="fade-up">
+      <div class="title"><span>Projects</span></div>
+      <div class="content-projects">
+        <div class="project-grid">
+          <article class="project-card" data-project="project1">
+            <img
+              src="https://portfolio-images-amarnadh1.s3.ap-south-1.amazonaws.com/Project1/Dashboard.png"
+              alt="Project 1 screenshot"
+            />
+            <div class="card-body">
+              <h3>Billing Software</h3>
+              <p>
+                Mobile responsive & role based springboot billing software
+                application .
+              </p>
+              <div class="card-actions">
+                <a
+                  href="https://spring-boot-billing-system-1.onrender.com"
+                  target="_blank"
+                  onclick="event.stopPropagation()"
+                  >Link</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="project2">
+            <img
+              src="https://portfolio-images-amarnadh1.s3.ap-south-1.amazonaws.com/project2/Project2.png"
+              alt="Project 2 screenshot"
+            />
+            <div class="card-body">
+              <h3>Apex English Institute UI</h3>
+              <p>Figma design & interactive prototype.</p>
+              <div class="card-actions">
+                <a
+                  href="https://www.figma.com/proto/kQtVWiAoUrvM46eoBgQQBe/Untitled?node-id=226-861&t=Y1pBjh6WJgzUanoQ-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A118"
+                  target="_blank"
+                  >Link</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="Contact">
+      <div class="content-contact">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="contact-details">
+          <div class="text-contact">
+            <div class="topic-contact">Have Any Project?</div>
+            <div class="btn">
+              <button id="open-contact-2">Let's Chat</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a href="#" class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <footer>
+      <div class="text">
+        <span>
+          Created by <a href="#">Aamanadh</a> &copy;2025 All Rights Reserved
+        </span>
+      </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal" aria-hidden="true">
+      <div class="modal-content" role="dialog" aria-modal="true">
+        <button class="modal-close" id="modal-close">&times;</button>
+        <h2 id="modal-title">Send a message</h2>
+        <form id="contact-form" class="contact-form" novalidate>
+          <label>
+            Name :
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </label>
+          <label>
+            Email :
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </label>
+          <label>
+            Message :
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+          </label>
+          <div class="form-buttons">
+            <button type="submit" class="btn primary">send</button>
+            <button type="button" class="btn ghost" id="modal-cancel">
+              Cancel
+            </button>
+          </div>
+          <p id="form-feedback" class="form-feedback"></p>
+        </form>
+      </div>
+    </div>
+
+    <!-- EmailJS  -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/b48f6aff28.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Contcat modal-->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <!-- Main JS (module) -->
+    <script type="module" src="javaScript/main.js"></script>
+
+    <div id="projectModal" class="project-modal">
+      <span class="close-btn">&times;</span>
+      <div class="project-modal-content">
+        <h2 id="modalTitle"></h2>
+        <button class="nav prev">&#10094;</button>
+        <img id="modalImage" loading="lazy" />
+        <p id="modalCaption"></p>
+        <button class="nav next">&#10095;</button>
+      </div>
+    </div>
+  </body>
+</html>
